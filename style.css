@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #242424;
+}
+
+.container {
+  font-size: 1.2em;
+  letter-spacing: 0.2em;
+  width: 25em;
+  background: #434141;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  padding: 3.5em 1.3em;
+  border-radius: 0.4em;
+}
+
+.container h1 {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  word-spacing: 0.4em;
+}
